@@ -22,6 +22,7 @@ axios.get(url).then(response =>{
     }
     const filtro = funcionarios.filter(genero).filter(pais).filter(menor).filter(s => s.salario === salario)
  
+    console.log('A mulher chinesa com o menor salário é:')
     console.log(filtro)
     console.log(filtro.length)
 
