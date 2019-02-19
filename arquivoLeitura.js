@@ -16,6 +16,7 @@ fs.readFile(caminho, 'utf-8', (err, conteudo) =>{
 })
 
 //Forma mais simples para a leitura de um arquivo JSON
+// Esta forma é sincrona
 const config = require('./arquivo.json')
 console.log(config.db)
 
